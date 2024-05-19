@@ -1,0 +1,259 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Belajar\\.Net\\etanabookingroomforcandidate-main\\EtanaBookingRoomApps\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6A21ED9C-B400-4FEC-9ACC-40B910FBF4A5}|EtanaBookingRoomApps\\EtanaBookingRoomApps.csproj|D:\\Belajar\\.Net\\etanabookingroomforcandidate-main\\EtanaBookingRoomApps\\etanabookingroomapps\\scripts\\detailroom.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6A21ED9C-B400-4FEC-9ACC-40B910FBF4A5}|EtanaBookingRoomApps\\EtanaBookingRoomApps.csproj|solutionrelative:etanabookingroomapps\\scripts\\detailroom.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A21ED9C-B400-4FEC-9ACC-40B910FBF4A5}|EtanaBookingRoomApps\\EtanaBookingRoomApps.csproj|D:\\Belajar\\.Net\\etanabookingroomforcandidate-main\\EtanaBookingRoomApps\\etanabookingroomapps\\views\\listrooms\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A21ED9C-B400-4FEC-9ACC-40B910FBF4A5}|EtanaBookingRoomApps\\EtanaBookingRoomApps.csproj|solutionrelative:etanabookingroomapps\\views\\listrooms\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A21ED9C-B400-4FEC-9ACC-40B910FBF4A5}|EtanaBookingRoomApps\\EtanaBookingRoomApps.csproj|d:\\belajar\\.net\\etanabookingroomforcandidate-main\\etanabookingroomapps\\etanabookingroomapps\\scripts\\listbooking.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6A21ED9C-B400-4FEC-9ACC-40B910FBF4A5}|EtanaBookingRoomApps\\EtanaBookingRoomApps.csproj|solutionrelative:etanabookingroomapps\\scripts\\listbooking.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A21ED9C-B400-4FEC-9ACC-40B910FBF4A5}|EtanaBookingRoomApps\\EtanaBookingRoomApps.csproj|D:\\Belajar\\.Net\\etanabookingroomforcandidate-main\\EtanaBookingRoomApps\\etanabookingroomapps\\controllers\\listroomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A21ED9C-B400-4FEC-9ACC-40B910FBF4A5}|EtanaBookingRoomApps\\EtanaBookingRoomApps.csproj|solutionrelative:etanabookingroomapps\\controllers\\listroomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A21ED9C-B400-4FEC-9ACC-40B910FBF4A5}|EtanaBookingRoomApps\\EtanaBookingRoomApps.csproj|d:\\belajar\\.net\\etanabookingroomforcandidate-main\\etanabookingroomapps\\etanabookingroomapps\\views\\listbooking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A21ED9C-B400-4FEC-9ACC-40B910FBF4A5}|EtanaBookingRoomApps\\EtanaBookingRoomApps.csproj|solutionrelative:etanabookingroomapps\\views\\listbooking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A21ED9C-B400-4FEC-9ACC-40B910FBF4A5}|EtanaBookingRoomApps\\EtanaBookingRoomApps.csproj|d:\\belajar\\.net\\etanabookingroomforcandidate-main\\etanabookingroomapps\\etanabookingroomapps\\controllers\\accessworkspacecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A21ED9C-B400-4FEC-9ACC-40B910FBF4A5}|EtanaBookingRoomApps\\EtanaBookingRoomApps.csproj|solutionrelative:etanabookingroomapps\\controllers\\accessworkspacecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A21ED9C-B400-4FEC-9ACC-40B910FBF4A5}|EtanaBookingRoomApps\\EtanaBookingRoomApps.csproj|d:\\belajar\\.net\\etanabookingroomforcandidate-main\\etanabookingroomapps\\etanabookingroomapps\\controllers\\listbookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A21ED9C-B400-4FEC-9ACC-40B910FBF4A5}|EtanaBookingRoomApps\\EtanaBookingRoomApps.csproj|solutionrelative:etanabookingroomapps\\controllers\\listbookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A21ED9C-B400-4FEC-9ACC-40B910FBF4A5}|EtanaBookingRoomApps\\EtanaBookingRoomApps.csproj|D:\\Belajar\\.Net\\etanabookingroomforcandidate-main\\EtanaBookingRoomApps\\etanabookingroomapps\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A21ED9C-B400-4FEC-9ACC-40B910FBF4A5}|EtanaBookingRoomApps\\EtanaBookingRoomApps.csproj|solutionrelative:etanabookingroomapps\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A21ED9C-B400-4FEC-9ACC-40B910FBF4A5}|EtanaBookingRoomApps\\EtanaBookingRoomApps.csproj|D:\\Belajar\\.Net\\etanabookingroomforcandidate-main\\EtanaBookingRoomApps\\etanabookingroomapps\\views\\login\\noaccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A21ED9C-B400-4FEC-9ACC-40B910FBF4A5}|EtanaBookingRoomApps\\EtanaBookingRoomApps.csproj|solutionrelative:etanabookingroomapps\\views\\login\\noaccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A21ED9C-B400-4FEC-9ACC-40B910FBF4A5}|EtanaBookingRoomApps\\EtanaBookingRoomApps.csproj|D:\\Belajar\\.Net\\etanabookingroomforcandidate-main\\EtanaBookingRoomApps\\etanabookingroomapps\\views\\listrooms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A21ED9C-B400-4FEC-9ACC-40B910FBF4A5}|EtanaBookingRoomApps\\EtanaBookingRoomApps.csproj|solutionrelative:etanabookingroomapps\\views\\listrooms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A21ED9C-B400-4FEC-9ACC-40B910FBF4A5}|EtanaBookingRoomApps\\EtanaBookingRoomApps.csproj|D:\\Belajar\\.Net\\etanabookingroomforcandidate-main\\EtanaBookingRoomApps\\etanabookingroomapps\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A21ED9C-B400-4FEC-9ACC-40B910FBF4A5}|EtanaBookingRoomApps\\EtanaBookingRoomApps.csproj|solutionrelative:etanabookingroomapps\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A21ED9C-B400-4FEC-9ACC-40B910FBF4A5}|EtanaBookingRoomApps\\EtanaBookingRoomApps.csproj|d:\\belajar\\.net\\etanabookingroomforcandidate-main\\etanabookingroomapps\\etanabookingroomapps\\models\\mastermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A21ED9C-B400-4FEC-9ACC-40B910FBF4A5}|EtanaBookingRoomApps\\EtanaBookingRoomApps.csproj|solutionrelative:etanabookingroomapps\\models\\mastermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A21ED9C-B400-4FEC-9ACC-40B910FBF4A5}|EtanaBookingRoomApps\\EtanaBookingRoomApps.csproj|D:\\Belajar\\.Net\\etanabookingroomforcandidate-main\\EtanaBookingRoomApps\\etanabookingroomapps\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6A21ED9C-B400-4FEC-9ACC-40B910FBF4A5}|EtanaBookingRoomApps\\EtanaBookingRoomApps.csproj|solutionrelative:etanabookingroomapps\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Belajar\\.Net\\etanabookingroomforcandidate-main\\EtanaBookingRoomApps\\EtanaBookingRoomApps\\Views\\ListRooms\\Index.cshtml",
+              "RelativeDocumentMoniker": "EtanaBookingRoomApps\\Views\\ListRooms\\Index.cshtml",
+              "ToolTip": "D:\\Belajar\\.Net\\etanabookingroomforcandidate-main\\EtanaBookingRoomApps\\EtanaBookingRoomApps\\Views\\ListRooms\\Index.cshtml",
+              "RelativeToolTip": "EtanaBookingRoomApps\\Views\\ListRooms\\Index.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T14:46:10.54Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListRoomsController.cs",
+              "DocumentMoniker": "D:\\Belajar\\.Net\\etanabookingroomforcandidate-main\\EtanaBookingRoomApps\\EtanaBookingRoomApps\\Controllers\\ListRoomsController.cs",
+              "RelativeDocumentMoniker": "EtanaBookingRoomApps\\Controllers\\ListRoomsController.cs",
+              "ToolTip": "D:\\Belajar\\.Net\\etanabookingroomforcandidate-main\\EtanaBookingRoomApps\\EtanaBookingRoomApps\\Controllers\\ListRoomsController.cs",
+              "RelativeToolTip": "EtanaBookingRoomApps\\Controllers\\ListRoomsController.cs",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAWwJ8AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T15:57:02.315Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\Belajar\\.Net\\etanabookingroomforcandidate-main\\EtanaBookingRoomApps\\EtanaBookingRoomApps\\Views\\ListRooms\\Detail.cshtml",
+              "RelativeDocumentMoniker": "EtanaBookingRoomApps\\Views\\ListRooms\\Detail.cshtml",
+              "ToolTip": "D:\\Belajar\\.Net\\etanabookingroomforcandidate-main\\EtanaBookingRoomApps\\EtanaBookingRoomApps\\Views\\ListRooms\\Detail.cshtml",
+              "RelativeToolTip": "EtanaBookingRoomApps\\Views\\ListRooms\\Detail.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAFMAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T16:00:09.631Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DetailRoom.js",
+              "DocumentMoniker": "D:\\Belajar\\.Net\\etanabookingroomforcandidate-main\\EtanaBookingRoomApps\\EtanaBookingRoomApps\\Scripts\\DetailRoom.js",
+              "RelativeDocumentMoniker": "EtanaBookingRoomApps\\Scripts\\DetailRoom.js",
+              "ToolTip": "D:\\Belajar\\.Net\\etanabookingroomforcandidate-main\\EtanaBookingRoomApps\\EtanaBookingRoomApps\\Scripts\\DetailRoom.js",
+              "RelativeToolTip": "EtanaBookingRoomApps\\Scripts\\DetailRoom.js",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAtwBoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-14T16:04:16.58Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Belajar\\.Net\\etanabookingroomforcandidate-main\\EtanaBookingRoomApps\\EtanaBookingRoomApps\\Views\\ListBooking\\Index.cshtml",
+              "RelativeDocumentMoniker": "EtanaBookingRoomApps\\Views\\ListBooking\\Index.cshtml",
+              "ToolTip": "D:\\Belajar\\.Net\\etanabookingroomforcandidate-main\\EtanaBookingRoomApps\\EtanaBookingRoomApps\\Views\\ListBooking\\Index.cshtml",
+              "RelativeToolTip": "EtanaBookingRoomApps\\Views\\ListBooking\\Index.cshtml",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAAAGsAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T14:23:00.514Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ListBookingController.cs",
+              "DocumentMoniker": "D:\\Belajar\\.Net\\etanabookingroomforcandidate-main\\EtanaBookingRoomApps\\EtanaBookingRoomApps\\Controllers\\ListBookingController.cs",
+              "RelativeDocumentMoniker": "EtanaBookingRoomApps\\Controllers\\ListBookingController.cs",
+              "ToolTip": "D:\\Belajar\\.Net\\etanabookingroomforcandidate-main\\EtanaBookingRoomApps\\EtanaBookingRoomApps\\Controllers\\ListBookingController.cs",
+              "RelativeToolTip": "EtanaBookingRoomApps\\Controllers\\ListBookingController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAkwEMAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T14:25:24.615Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ListBooking.js",
+              "DocumentMoniker": "D:\\Belajar\\.Net\\etanabookingroomforcandidate-main\\EtanaBookingRoomApps\\EtanaBookingRoomApps\\Scripts\\ListBooking.js",
+              "RelativeDocumentMoniker": "EtanaBookingRoomApps\\Scripts\\ListBooking.js",
+              "ToolTip": "D:\\Belajar\\.Net\\etanabookingroomforcandidate-main\\EtanaBookingRoomApps\\EtanaBookingRoomApps\\Scripts\\ListBooking.js",
+              "RelativeToolTip": "EtanaBookingRoomApps\\Scripts\\ListBooking.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-19T15:01:51.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MasterModel.cs",
+              "DocumentMoniker": "D:\\Belajar\\.Net\\etanabookingroomforcandidate-main\\EtanaBookingRoomApps\\EtanaBookingRoomApps\\Models\\MasterModel.cs",
+              "RelativeDocumentMoniker": "EtanaBookingRoomApps\\Models\\MasterModel.cs",
+              "ToolTip": "D:\\Belajar\\.Net\\etanabookingroomforcandidate-main\\EtanaBookingRoomApps\\EtanaBookingRoomApps\\Models\\MasterModel.cs",
+              "RelativeToolTip": "EtanaBookingRoomApps\\Models\\MasterModel.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAvwBkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T14:27:48.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccessWorkspaceController.cs",
+              "DocumentMoniker": "D:\\Belajar\\.Net\\etanabookingroomforcandidate-main\\EtanaBookingRoomApps\\EtanaBookingRoomApps\\Controllers\\AccessWorkspaceController.cs",
+              "RelativeDocumentMoniker": "EtanaBookingRoomApps\\Controllers\\AccessWorkspaceController.cs",
+              "ToolTip": "D:\\Belajar\\.Net\\etanabookingroomforcandidate-main\\EtanaBookingRoomApps\\EtanaBookingRoomApps\\Controllers\\AccessWorkspaceController.cs",
+              "RelativeToolTip": "EtanaBookingRoomApps\\Controllers\\AccessWorkspaceController.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAMwCsAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T14:21:08.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\Belajar\\.Net\\etanabookingroomforcandidate-main\\EtanaBookingRoomApps\\EtanaBookingRoomApps\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "EtanaBookingRoomApps\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\Belajar\\.Net\\etanabookingroomforcandidate-main\\EtanaBookingRoomApps\\EtanaBookingRoomApps\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "EtanaBookingRoomApps\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T15:21:22.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NoAccess.cshtml",
+              "DocumentMoniker": "D:\\Belajar\\.Net\\etanabookingroomforcandidate-main\\EtanaBookingRoomApps\\EtanaBookingRoomApps\\Views\\Login\\NoAccess.cshtml",
+              "RelativeDocumentMoniker": "EtanaBookingRoomApps\\Views\\Login\\NoAccess.cshtml",
+              "ToolTip": "D:\\Belajar\\.Net\\etanabookingroomforcandidate-main\\EtanaBookingRoomApps\\EtanaBookingRoomApps\\Views\\Login\\NoAccess.cshtml",
+              "RelativeToolTip": "EtanaBookingRoomApps\\Views\\Login\\NoAccess.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T15:18:12.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "D:\\Belajar\\.Net\\etanabookingroomforcandidate-main\\EtanaBookingRoomApps\\EtanaBookingRoomApps\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "EtanaBookingRoomApps\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "D:\\Belajar\\.Net\\etanabookingroomforcandidate-main\\EtanaBookingRoomApps\\EtanaBookingRoomApps\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "EtanaBookingRoomApps\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEUAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T15:09:54.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\Belajar\\.Net\\etanabookingroomforcandidate-main\\EtanaBookingRoomApps\\EtanaBookingRoomApps\\Web.config",
+              "RelativeDocumentMoniker": "EtanaBookingRoomApps\\Web.config",
+              "ToolTip": "D:\\Belajar\\.Net\\etanabookingroomforcandidate-main\\EtanaBookingRoomApps\\EtanaBookingRoomApps\\Web.config",
+              "RelativeToolTip": "EtanaBookingRoomApps\\Web.config",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAADSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-13T15:23:42.038Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

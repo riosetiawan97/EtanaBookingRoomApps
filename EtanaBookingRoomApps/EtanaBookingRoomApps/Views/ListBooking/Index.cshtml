@@ -1,0 +1,139 @@
+﻿@using EtanaBookingRoomApps.Models
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    string baseUrl = Request.Url.Scheme + "://" + Request.Url.Authority +
+Request.ApplicationPath.TrimEnd('/');
+    String Type = ViewBag.Type;
+    List<ListBooking> GetBooking = Type == "3" ? ViewBag.GetPendingApproval : Type == "2" ? ViewBag.GetMyHistoryBooking : ViewBag.GetMyBookingRoom;
+    List<SessionTimePerRoom> GetSessionBookingRoom = ViewBag.GetSessionBookingRoom;
+}
+
+<div class="container-fluid px-4">
+    <h2 class="mt-4">List Booking Rooms</h2>
+    @*<ol class="breadcrumb mb-4">
+            <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
+            <li class="breadcrumb-item active">Tables</li>
+        </ol>*@
+    <div class="card mb-4">
+        <div class="card-body">
+            <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                <a href="@baseUrl/ListBooking?Type=1" type="button" class="btn btn-danger">My Booking Room</a>
+                <a href="@baseUrl/ListBooking?Type=2" type="button" class="btn btn-warning">My History Booking</a>
+                @if (Request.Cookies["Role"].Value == "1")
+                {
+                    <a href="@baseUrl/ListBooking?Type=3" type="button" class="btn btn-success">Pending Approval</a>
+                }
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-table me-1"></i>
+            Grid
+        </div>
+        <div class="card-body">
+            @if (Type == "1")
+            {
+                <label> <b> <i>List My Booking Room</i>  </b></label>
+            }
+            @if (Type == "2")
+            {
+                <label> <b> <i>List My History Booking Room</i></b> </label>
+            }
+            @if (Type == "3")
+            {
+                <label> <b> <i>List Pending Approval</i> </b></label>
+            }
+
+            <hr />
+            <div class="row">
+
+
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Room</th>
+                                <th>Total Participant</th>
+                                <th>Session</th>
+                                <th>Type</th>
+                                <th>Additional Information</th>
+                                <th>Status</th>
+                                <th>Action</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in GetBooking)
+                            {
+                                <tr>
+                                    <td>@item.Date</td>
+                                    <td>@item.RoomName</td>
+                                    <td>@item.TotalParticipant</td>
+                                    <td>@item.Session</td>
+                                    <td>@item.IsInternal</td>
+                                    <td>@item.AdditionalInformation</td>
+                                    <td>@item.StatusName</td>
+                                    <td>
+                                        @if (Request.Cookies["Role"].Value == "1")
+                                        { 
+                                            <a href="@baseUrl/ListRooms/Detail?Id=@item.IdEncrypt" class="btn btn-sm btn-primary">Approve / Reject</a>
+                                        }                                        
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                        </table>
+                </div>
+
+
+
+
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- Modal -->
+<form action="/" method="post" id="SubmitApproveModal">
+    <div class="modal fade" id="ApproveModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Approval Booking Room</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <input type="hidden" id="IdEncrypt" name="name" value="" />
+                            <label>Approval</label>
+                            <select class="form-control" id="ApprovalSelect" required>
+                                <option value="">Choose Approval</option>
+                                <option value="1">Approve</option>
+                                <option value="0">Reject</option>
+                            </select>
+                            <label>Note</label>
+                            <input type="text" class="form-control" id="NoteApproval" required> </input>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">SUBMIT</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

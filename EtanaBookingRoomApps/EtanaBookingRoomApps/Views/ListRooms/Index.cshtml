@@ -1,0 +1,83 @@
+﻿@using EtanaBookingRoomApps.Models
+@{
+    
+    ViewBag.Title = "List Meeting Room";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    string baseUrl = Request.Url.Scheme + "://" + Request.Url.Authority +
+Request.ApplicationPath.TrimEnd('/');
+    List<Rooms> GetRoom = ViewBag.GetRooms;
+    List<RoomFacilities> GetRoomFacilities = ViewBag.GetRoomFacilities;
+}
+
+<div class="container-fluid px-4">
+    <h2 class="mt-4">List Meeting Rooms</h2>
+    @*<ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
+        <li class="breadcrumb-item active">Tables</li>
+    </ol>*@
+    <div class="card mb-4">
+        <div class="card-body">
+            Total : <b>@GetRoom.Count</b> Rooms
+        </div>
+    </div>
+
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-table me-1"></i>
+            Grid
+        </div>
+        <div class="card-body">
+
+            @*@for (int i = 0; i < 20; i++)
+        {*@
+
+            <div class="row">
+
+                @foreach (var item in GetRoom)
+                {
+                    <div class="col-md-4" style="margin-top:20px;">
+                        <div class="card">
+                            <img src="https://www.wework.com/ideas/wp-content/uploads/sites/4/2021/08/20201008-199WaterSt-2_v1-1440x810.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">@item.RoomName Room</h5>
+
+                                <div style="padding:10px;">
+                                    <p><i class="fas fa-clock "></i> @item.RoomTime</p>
+                                    <p><i class="fas fa-users "></i> Max @item.RoomMaxPerson Person</p>
+                                    <p><i class="fas fa-map-pin "></i> @item.RoomLocation</p>
+                                </div>
+
+                                <i>Room Facilitiy</i>
+                                <br />
+                                @foreach (var item2 in GetRoomFacilities)
+                                {
+                                    if (item.Id == item2.RoomId)
+                                    {
+                                        <span class="badge @item2.RoomFacilityColor">@item2.RoomFacilityName</span>
+                                    }
+                                }
+
+                                @*<span class="badge bg-secondary">TV</span>
+        <span class="badge bg-success">AC</span>
+        <span class="badge bg-danger">White Board</span>*@
+                                <br />
+                                <br />
+                                <br />
+                                <a href="@baseUrl/ListRooms/Detail?Id=@item.IdEncrypt" class="btn btn-primary">Order Room</a>
+                            </div>
+                        </div>
+                    </div>
+
+                }
+
+
+
+
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+

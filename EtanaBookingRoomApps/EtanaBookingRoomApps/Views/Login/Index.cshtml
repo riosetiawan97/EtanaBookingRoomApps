@@ -1,0 +1,84 @@
+﻿
+@{
+    string baseUrl = Request.Url.Scheme + "://" + Request.Url.Authority +
+Request.ApplicationPath.TrimEnd('/');
+    ViewBag.Title = "Login";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <style>
+        .back {
+            background: #e2e2e2;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+        }
+
+        .div-center {
+            width: 400px;
+            background-color: #fff;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            max-width: 100%;
+            max-height: 100%;
+            overflow: auto;
+            padding: 1em 2em;
+            border-bottom: 2px solid #ccc;
+            display: table;
+        }
+
+        div.content {
+            display: table-cell;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="back">
+
+
+        <div class="div-center">
+
+
+            <div class="content">
+
+
+                <h3>Login</h3>
+                <hr />
+                <form action="/" method="post" id="SubmitLogin">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">NIP</label>
+                        <input type="text" class="form-control" id="InputNIP" placeholder="NIP">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Login</button>
+                    <hr />
+
+                </form>
+
+            </div>
+
+
+        </div>
+    </div>
+    <script>
+        var baseUrl = '@baseUrl';
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="~/Scripts/@ViewBag.javascript"></script>
+    <script src="~/Scripts/Swal.js"></script>
+
+</body>
+</html>
