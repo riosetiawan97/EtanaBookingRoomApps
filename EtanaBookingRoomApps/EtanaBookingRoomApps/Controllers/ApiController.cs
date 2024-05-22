@@ -118,9 +118,9 @@ namespace EtanaBookingRoomApps.Controllers
                 {
 
                     InsertSessionBookingRoom(
-item.IdBookingRooms.ToString(),
-item.IdSessionTime.ToString()
-);
+                        item.IdBookingRooms.ToString(),
+                        item.IdSessionTime.ToString()
+                    );
 
                     rr.Status = 1;
                     rr.Message = "success";
@@ -148,7 +148,8 @@ item.IdSessionTime.ToString()
         public ActionResult ApprovalRoom(
             String Note = "",
             String Status = "",
-            String IdBookingRooms = ""
+            String IdBookingRooms = "",
+            String Date = ""
             ) {
             Result rr = new Result();
             try
@@ -161,13 +162,29 @@ item.IdSessionTime.ToString()
                 cmd.Parameters.Add("@Code", Request.Cookies["Code"].Value);
                 cmd.Parameters.Add("@Note", Note);
                 cmd.Parameters.Add("@Status", Status);
-                cmd.Parameters.Add("@IdBookingRooms", Decrypt(IdBookingRooms));
+                cmd.Parameters.Add("@IdBookingRooms", IdBookingRooms);
+                cmd.Parameters.Add("@Date", Date);
                 conn.Open();
-                cmd.ExecuteNonQuery();
+                //cmd.ExecuteNonQuery();
+                SqlDataReader dr = cmd.ExecuteReader();
+                if (dr.HasRows)
+                {
+                    while (dr.Read())
+                    {
+                        rr.Message = dr["Message"].ToString();
+                    }
+                }
                 conn.Close();
                 conn.Dispose();
-                rr.Status = 1;
-                rr.Message = "Success";
+                if (rr.Message == "Success")
+                {
+                    rr.Status = 1;
+                }
+                else
+                {
+                    rr.Status = 0;
+                }
+                //rr.Message = "Success";
             }
             catch (Exception ex)
             {
@@ -334,9 +351,101 @@ item.IdSessionTime.ToString()
                 MaxJsonLength = Int32.MaxValue,
                 JsonRequestBehavior = JsonRequestBehavior.AllowGet
             };
+        }
+
+        public ActionResult InsertSessionTime(
+            String StartTime = "",
+            String EndTime = "",
+            String Id = ""
+            )
+        {
+            Result rr = new Result();
+            try
+            {
+                SqlConnection conn = new SqlConnection(MainConnection);
+                String sql = "[TransactionRooms]";
+                SqlCommand cmd = new SqlCommand(sql, conn);
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                cmd.Parameters.Add("@Param", "InsertSessionTime");
+                cmd.Parameters.Add("@StartTime", StartTime);
+                cmd.Parameters.Add("@EndTime", EndTime);
+                cmd.Parameters.Add("@IdRoom", Decrypt(Id));
+                conn.Open();
+                SqlDataReader dr = cmd.ExecuteReader();
+                if (dr.HasRows)
+                {
+                    while (dr.Read())
+                    {
+                        rr.Message = dr["Id"].ToString();
+                    }
+                }
+                conn.Close();
+                conn.Dispose();
+                rr.Status = 1;
 
 
+            }
+            catch (Exception ex)
+            {
 
+                rr.Status = 0;
+                rr.Message = ex.Message;
+            }
+            return new JsonResult()
+            {
+                Data = rr,
+                MaxJsonLength = Int32.MaxValue,
+                JsonRequestBehavior = JsonRequestBehavior.AllowGet
+            };
+        }
+
+        public ActionResult GetSessioRoomApprovePerDay(String IdRoom = "", String Date = "")
+        {
+            Result rr = new Result();
+            try
+            {
+                List<SessioRoomApprovePerDay> Res = new List<SessioRoomApprovePerDay>();
+                SqlConnection conn = new SqlConnection(MainConnection);
+                String sql = "[TransactionRooms]";
+                SqlCommand cmd = new SqlCommand(sql, conn);
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                cmd.Parameters.Add("@Param", "GetSessioRoomApprovePerDay");
+                cmd.Parameters.Add("@IdRoom", Decrypt(IdRoom));
+                cmd.Parameters.Add("@Date", Date);
+                conn.Open();
+                SqlDataReader dr = cmd.ExecuteReader();
+                if (dr.HasRows)
+                {
+                    while (dr.Read())
+                    {
+                        SessioRoomApprovePerDay st = new SessioRoomApprovePerDay();
+                        st.IdRooms = dr["IdRooms"].ToString();
+                        st.start = dr["StartTime"].ToString();
+                        st.end = dr["EndTime"].ToString();
+                        st.Date = dr["Date"].ToString();
+                        Res.Add(st);
+
+                    }
+                }
+                conn.Close();
+                conn.Dispose();
+                rr.Status = 1;
+                rr.Message = "Success";
+                rr.Return = Res;
+
+            }
+            catch (Exception ex)
+            {
+
+                rr.Status = 0;
+                rr.Message = ex.Message;
+            }
+            return new JsonResult()
+            {
+                Data = rr,
+                MaxJsonLength = Int32.MaxValue,
+                JsonRequestBehavior = JsonRequestBehavior.AllowGet
+            };
         }
 
 

@@ -78,9 +78,9 @@ Request.ApplicationPath.TrimEnd('/');
                                     <td>@item.AdditionalInformation</td>
                                     <td>@item.StatusName</td>
                                     <td>
-                                        @if (Request.Cookies["Role"].Value == "1")
+                                        @if (Request.Cookies["Role"].Value == "1" && Type == "3")
                                         { 
-                                            <a href="@baseUrl/ListRooms/Detail?Id=@item.IdEncrypt" class="btn btn-sm btn-primary">Approve / Reject</a>
+                                            <a class="btn btn-sm btn-primary btnMdlApprove" data-idBookingRoom=@item.Id data-date=@item.Date>Approve / Reject</a>
                                         }                                        
                                     </td>
                                 </tr>
@@ -117,6 +117,7 @@ Request.ApplicationPath.TrimEnd('/');
                     <div class="row">
                         <div class="col-md-12">
                             <input type="hidden" id="IdEncrypt" name="name" value="" />
+                            <input type="hidden" id="Date" name="name" value="" />
                             <label>Approval</label>
                             <select class="form-control" id="ApprovalSelect" required>
                                 <option value="">Choose Approval</option>
